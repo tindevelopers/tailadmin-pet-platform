@@ -17,10 +17,28 @@ if (!builderApiKey) {
   Builder.registerComponent(AiLayout, {
     name: "AI Layout",
     canHaveChildren: true,
+    inputs: [],
+    type: "section",
+    group: "Custom Components",
+    insertMenu: [
+      {
+        name: "Custom Components",
+        items: [{ name: "AI Layout" }],
+      },
+    ],
   });
 
   Builder.registerComponent(UserInfoCard, {
     name: "User Info Card",
+    inputs: [],
+    type: "section",
+    group: "Custom Components",
+    insertMenu: [
+      {
+        name: "Custom Components",
+        items: [{ name: "User Info Card" }],
+      },
+    ],
   });
 
   console.info(
