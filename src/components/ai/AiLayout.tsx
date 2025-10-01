@@ -2,7 +2,7 @@
 import React, { ReactNode, useState } from "react";
 import AiSidebarHistory from "./AiSidebarHistory";
 
-export default function AiLayout({ children }: { children: ReactNode }) {
+export default function AiLayout({ children }: { children?: ReactNode }) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   return (
     <div className="relative h-[calc(100vh-134px)] xl:h-[calc(100vh-146px)] px-4 xl:flex xl:px-0">
