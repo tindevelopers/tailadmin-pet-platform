@@ -22,4 +22,9 @@ if (!builderApiKey) {
   Builder.registerComponent(UserInfoCard, {
     name: "User Info Card",
   });
+
+  console.info(
+    "Registered components:",
+    Builder.components.map((component) => component.name)
+  );
 }
