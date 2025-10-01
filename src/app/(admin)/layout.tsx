@@ -1,5 +1,6 @@
 "use client";
 
+import "@/builder/register-components";
 import { useSidebar } from "@/context/SidebarContext";
 import AppHeader from "@/layout/AppHeader";
 import AppSidebar from "@/layout/AppSidebar";
