@@ -1,3 +1,4 @@
+import AiLayout from "@/components/ai/AiLayout";
 import PageBreadcrumb from "@/components/common/PageBreadCrumb";
 import { Metadata } from "next";
 import React from "react";
@@ -20,6 +21,9 @@ export default function BlankPage() {
             Start putting content on grids or panels, you can also use different
             combinations of grids.Please check out the dashboard and other pages
           </p>
+        </div>
+        <div className="mt-5">
+          <AiLayout />
         </div>
       </div>
     </div>
